@@ -1,3 +1,6 @@
+from dictor import dictor
+
+
 def add_types(self):
     return {'tag': tag_processor}
 

@@ -1,3 +1,6 @@
+from dictor import dictor
+
+
 def add_types(self):
     return {'entry_model': entry_model_processor}
 

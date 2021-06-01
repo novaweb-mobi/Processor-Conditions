@@ -1,3 +1,8 @@
+from datetime import datetime
+
+from dictor import dictor
+
+
 def add_types(self):
     return {'timestamp': timestamp_processor}
 
