@@ -1,7 +1,7 @@
 from typing import Union
 
 
-def add_operators(self):
+def add_operators():
     return {'==': {
         'operation': eql,
         'descriptions': {

@@ -1,7 +1,7 @@
 from typing import Any, Iterable
 
 
-def add_operators(self):
+def add_operators():
     return {'contain': {
         'operation': contains,
         'descriptions': {

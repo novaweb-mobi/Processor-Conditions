@@ -1,7 +1,7 @@
 from datetime import datetime
 
 
-def add_operators(self):
+def add_operators():
     return {'before_time': {
         'operation': time_before,
         'descriptions': {
