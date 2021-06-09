@@ -1,7 +1,7 @@
 from dictor import dictor
 
 
-def add_types(self):
+def add_types():
     return {'timeline': timeline_processor}
 
 

@@ -3,7 +3,7 @@ from datetime import datetime
 from dictor import dictor
 
 
-def add_types(self):
+def add_types():
     return {'timestamp': timestamp_processor}
 
 
