@@ -1,6 +1,42 @@
-def add_operators(self):
-    return {'contain': contains,
-            'not_contain': not_contains}
+from typing import Any, Iterable
+
+
+def add_operators():
+    return {'contain': {
+        'operation': contains,
+        'descriptions': {
+            'string': {
+                'pt': 'Contém',
+                'en': 'Contains'
+            },
+            'array': {
+                'pt': 'Contém',
+                'en': 'Contains'
+            },
+            'object': {
+                'pt': 'Possui a propriedade',
+                'en': 'Has property'
+            }
+        }
+    },
+        'not_contain': {
+            'operation': not_contains,
+            'descriptions': {
+                'string': {
+                    'pt': 'Contém',
+                    'en': 'Contains'
+                },
+                'array': {
+                    'pt': 'Não contém',
+                    'en': 'Doesn\'t contain'
+                },
+                'object': {
+                    'pt': 'Não possui a propriedade',
+                    'en': 'Doesn\'t have property'
+                }
+            }
+        }
+    }
 
 
 def contains(value: Iterable, reference: Any) -> bool:
