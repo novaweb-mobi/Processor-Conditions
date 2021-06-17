@@ -23,8 +23,8 @@ def add_operators():
             'operation': not_contains,
             'descriptions': {
                 'string': {
-                    'pt': 'Contém',
-                    'en': 'Contains'
+                    'pt': 'Não contém',
+                    'en': 'Doesn\'t contain'
                 },
                 'array': {
                     'pt': 'Não contém',
@@ -35,7 +35,7 @@ def add_operators():
                     'en': 'Doesn\'t have property'
                 }
             }
-        }
+    }
     }
 
 
