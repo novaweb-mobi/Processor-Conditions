@@ -21,7 +21,7 @@ def add_actions():
                             "field_type": "select",
                             "field_options": {
                                 "from": {
-                                    "url": "https://{{API_URL}}/v1/tag/",
+                                    "url": "https://smartview-api.novaweb.duckdns.org:16443/v1/tag/",
                                     "optionsPath": "data.results",
                                     "label": "identifier",
                                     "value": "id_"
@@ -33,7 +33,7 @@ def add_actions():
                             "field_type": "select",
                             "field_options": {
                                 "from": {
-                                    "url": "https://{{API_URL}}/v1/tag/{{"
+                                    "url": "https://smartview-api.novaweb.duckdns.org:16443/v1/tag/{{"
                                            "property_key}}/value",
                                     "optionsPath": "data.results",
                                     "label": "value",
