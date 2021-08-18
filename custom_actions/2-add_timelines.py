@@ -16,7 +16,7 @@ def add_actions():
                         "field_type": "select",
                         "field_options": {
                             "from": {
-                                "url": "https://{{API_URL}}/v1/timeline/",
+                                "url": "https://smartview-api.novaweb.duckdns.org:16443/v1/timeline/",
                                 "optionsPath": "data.results",
                                 "label": "name",
                                 "value": "id_"
