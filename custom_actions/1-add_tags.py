@@ -29,15 +29,19 @@ def add_actions():
                             }
                         },
                         "property_value": {
-                            "label": "Valor",
-                            "field_type": "select",
+                            "label": "Valores",
+                            "field_type": "array",
                             "field_options": {
-                                "from": {
-                                    "url": "https://smartview-api.novaweb.duckdns.org:16443/v1/tag/{{"
-                                           "property_key}}/value",
-                                    "optionsPath": "data.results",
-                                    "label": "value",
-                                    "value": "id_"
+                                "label": "Valor",
+                                "field_type": "select",
+                                "field_options": {
+                                    "from": {
+                                        "url": "https://smartview-api.novaweb.duckdns.org:16443/v1/tag/{{"
+                                               "property_key}}/value",
+                                        "optionsPath": "data.results",
+                                        "label": "value",
+                                        "value": "id_"
+                                    }
                                 }
                             }
                         }
